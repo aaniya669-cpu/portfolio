@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aaniya Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: white;
+            text-align: left;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            background: #020617;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: #38bdf8;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #facc15;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #020617;
+            padding: 20px;
+            border-radius: 12px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        h1 {
+            color: #38bdf8;
+        }
+
+        h2 {
+            color: #facc15;
+            margin-top: 30px;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #1e293b;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        hr {
+            border: 1px solid #334155;
+            margin: 20px 0;
+        }
+
+        button {
+            background-color: #38bdf8;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #0ea5e9;
+            color: white;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.03);
+        }
+
+        /* ✨ Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* 📱 Mobile Responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 🔥 Navbar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>✨ Aaniya ✨</h1>
+        <p>Computer Engineering Student</p>
+
+        <hr>
+
+        <h2 id="about">About Me</h2>
+        <p>
+            I'm a passionate engineering student who loves coding, building projects, 
+            and learning new technologies. I enjoy exploring web development and improving my skills daily.
+        </p>
+
+        <h2 id="skills">Skills</h2>
+        <ul>
+            <li>HTML (Learning)</li>
+            <li>Python (Basic)</li>
+            <li>C Programming</li>
+            <li>Problem Solving</li>
+        </ul>
+
+        <h2 id="projects">Projects</h2>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>This is my personal portfolio built using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <h3>CGPA Calculator</h3>
+            <p>A simple app to calculate CGPA based on subject marks.</p>
+        </div>
+
+        <div class="project">
+            <h3>Coming Soon</h3>
+            <p>More exciting projects will be added here soon.</p>
+        </div>
+
+        <h2 id="contact">Contact</h2>
+        <p>Email: aaniya669@gmail.com</p>
+
+        <!-- 📩 Email -->
+        <a href="mailto:aaniya669@gmail.com">
+            <button>📩 Email Me</button>
+        </a>
+
+        <!-- 🔗 GitHub -->
+        <a href="https://github.com/" target="_blank">
+            <button>💻 GitHub</button>
+        </a>
+
+        <!-- 🔗 LinkedIn -->
+        <a href="https://www.linkedin.com/in/aniya-a-394446351/" target="_blank">
+            <button>🔗 LinkedIn</button>
+        </a>
+
+    </div>
+
+</body>
+
+</html>
